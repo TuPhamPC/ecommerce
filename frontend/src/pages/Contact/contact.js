@@ -72,7 +72,7 @@ const Contact = () => {
                                     <img class="rounded-circle shadow-1-strong mb-4"
                                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
                                     />
-                                    <h5 class="mb-3">Nguyen Quang Thanh</h5>
+                                    <h5 class="mb-3">Pham Van Tu</h5>
                                     <p>Co-Founder</p>
                                     <p class="text-muted">
                                         <i class="fas fa-quote-left pe-2"></i>
@@ -92,7 +92,7 @@ const Contact = () => {
                                     <img class="rounded-circle shadow-1-strong mb-4"
                                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
                                     />
-                                    <h5 class="mb-3">Tran Duc Khanh Thien</h5>
+                                    <h5 class="mb-3">Nguyen Cong Tu</h5>
                                     <p>CEO</p>
                                     <p class="text-muted">
                                         <i class="fas fa-quote-left pe-2"></i>
@@ -114,7 +114,7 @@ const Contact = () => {
                                     <img class="rounded-circle shadow-1-strong mb-4"
                                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
                                     />
-                                    <h5 class="mb-3">Nguyen Van Truong</h5>
+                                    <h5 class="mb-3">Luong Xuan Tu</h5>
                                     <p>Co-Founder</p>
                                     <p class="text-muted">
                                         <i class="fas fa-quote-left pe-2"></i>
@@ -180,7 +180,7 @@ const Contact = () => {
                                         <ul class="list-unstyled">
                                             <li>
                                                 <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
-                                                <p><small>350-352 Võ Văn Kiệt, Phường Cô Giang Quận 1, Thành phố Hồ Chí Minh</small></p>
+                                                <p><small>94E-94F Đường Láng, Phường Ngã Tư Sở, Quận Đống Đa, Hà Nội</small></p>
                                             </li>
                                             <li>
                                                 <i class="fas fa-phone fa-2x text-primary"></i>
