@@ -119,7 +119,7 @@ function Topbar() {
         <div style={{ position: 'relative', display: 'flex', float: 'right', alignItems: "center", cursor: 'pointer' }}>
             <Row>
               <Col onClick={() => handleLink("/cart")}>
-                <p style={{ marginRight: 10, padding: 0, margin: 0, color: '#FFFFFF' }}><ShoppingOutlined style={{ fontSize: '18px', color: '#FFFFFF' }} /> {cart} sản phẩm</p>
+                <p style={{ marginRight: 10, padding: 0, margin: 0, color: '#FFFFFF' }}><ShoppingOutlined style={{ fontSize: '18px', color: '#FFFFFF' }} /> {cart} Sản phẩm</p>
               </Col>
               <Col>
                 <Badge style={{ marginLeft: 10 }} overflowCount={9999} count={userData?.score > 0 ? userData?.score : 0} />
