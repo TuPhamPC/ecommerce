@@ -99,25 +99,25 @@ const cateController = {
           page: page,
           limit: limit,
         };
-
-        console.log(categoryId);
       
         try {
-          const category = await CategoryModel.findById(categoryId);
-          if (!category) {
-            return res.status(404).json({ message: 'Category not found' });
+          let products;
+          if (categoryId === '643cd2aed2f4cf93f513bdad') {
+            products = await ProductModel.paginate({}, options);
+          } else {
+            const category = await CategoryModel.findById(categoryId);
+            if (!category) {
+              return res.status(404).json({ message: 'Category not found' });
+            }
+            products = await ProductModel.paginate({ category: categoryId }, options);
           }
-      
-          const products = await ProductModel.paginate(
-            { category: categoryId },
-            options
-          );
       
           res.status(200).json({ data: products });
         } catch (err) {
           res.status(500).json({ message: err.message });
         }
       },
+      
       
 }
 

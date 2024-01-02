@@ -103,13 +103,13 @@ const Home = () => {
             }
             try {
                 const data = { limit: 10, page: 1 };
-                const response = await productApi.getProductsByCategory(data, "643cd2aed2f4cf93f513bdad");
+                const response = await productApi.getProductsByCategory(data, "643cd2aed2f4cf93f513bdaa");
                 console.log(response);
                 setProductsPhone(response.data.docs);
-                const response2 = await productApi.getProductsByCategory(data, "643cd2aed2f4cf93f513bdad");
+                const response2 = await productApi.getProductsByCategory(data, "643cd2aed2f4cf93f513bdaa");
                 console.log(response2);
                 setProductsPC(response2.data.docs);
-                const response3 = await productApi.getProductsByCategory(data, "643cd2aed2f4cf93f513bdad");
+                const response3 = await productApi.getProductsByCategory(data, "643cd2aed2f4cf93f513bdaa");
                 console.log(response3);
                 setProductsTablet(response3.data.docs);
             } catch (error) {

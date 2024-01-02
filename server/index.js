@@ -7,7 +7,7 @@ const app = express();
 const path = require('path');
 const DB_MONGO = require('./app/config/db.config')
 const _CONST = require('./app/config/constant')
-// const { sendEmailNotification } = require('./app/kafka/consumer');
+
 
 //router
 const authRoute = require('./app/routers/auth');
